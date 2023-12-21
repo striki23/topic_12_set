@@ -12,4 +12,11 @@ for idx, i in enumerate(numbers):
 
 # 65 10 98 65 43 10
 
-# не поняла как тут применить множество
+# Option 2
+# seen: set[int] = set()
+# for n in numbers:
+#     if n in seen:
+#         print('ДА')
+#     else:
+#         print('НЕТ')
+#         seen.add(n)

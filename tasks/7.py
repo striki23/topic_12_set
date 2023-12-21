@@ -9,3 +9,6 @@ print(*sorted(general_num))
 
 # 89 12 45 87 20 97 21 24 54 76 23 56 7
 # 23 98 15 97 34 12 56 23 78 8 74 81 21 89
+# Option 2
+print(*sorted(set(input('Введите элементы 1-го списка: ').split())
+              & set(input('Введите элементы 2-го списка: ').split()), key=int))
